@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import NavBar from '../components/nav/navbar';
 import Banner from "../components/banner/banner";
 import styles from '@/styles/Home.module.css';
 
@@ -13,8 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main} >
-        <h1>Villa Tramonto</h1>
-        {/*/ NavBar*/}
+        < NavBar />
         <Banner
             title='Villa Tramonto'
             subTitle='Proporcionando conforto e tranquilidade para sua estadia'

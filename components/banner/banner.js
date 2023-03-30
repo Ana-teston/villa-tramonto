@@ -1,4 +1,5 @@
-import styles from "./banner.module.css"
+import styles from "./banner.module.css";
+import Image from "next/image";
 
 const Banner = (props) => {
 
@@ -21,7 +22,12 @@ const Banner = (props) => {
                       <span className={styles.playText}>Reservaçoes</span>
                     </button>
                     <button className={styles.btnWithIcon}>
-                        <span className={styles.playText}>Play Video</span>
+                        <Image
+                            src="/static/play_circle.svg"
+                            alt="Play icon"
+                            width= "32"
+                            height="32" />
+                        <span className={styles.playText}>Video</span>
                     </button>
                 </div>
             </div>
