@@ -46,8 +46,8 @@
   font-weight: 700;
   padding-left:1.25rem /* 20px */;
   margin-left: 1.25rem/* 20px */;
-  color: var(--red);
-  -webkit-text-stroke: 1px var(--red10); /* width and color */
+  color: var(--white10);
+  -webkit-text-stroke: 1px var(--green30); /* width and color */
 }
 
 .subTitle {
@@ -55,8 +55,8 @@
   line-height: 1.75rem /* 28px */;
   padding-left:1.25rem /* 20px */;
   margin-left: 1.25rem/* 20px */;
-  color: var(--red);
-  -webkit-text-stroke: 0.5px var(--red10); /* width and color */
+  color: var(--white10);
+  -webkit-text-stroke: 0.5px var(--green30); /* width and color */
 }
 
 .playBtnWrapper {
@@ -80,10 +80,10 @@
   height: 100%;
   bottom: 0px;
   --tw-gradient-stops: var(--tw-gradient-from),
-  var(--tw-gradient-to, rgba(0, 0, 0, 0));
+  var(--tw-gradient-to, rgba(40, 90, 67, 0.1));
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 
-  --tw-gradient-from: var(--black);
+  --tw-gradient-from: var(--green30);
 
   background-size: cover;
   background-position: "50% 50%";

@@ -16,7 +16,7 @@ const NavBar = (props) => {
           <a>
             <div className={styles.logoWrapper} >
               <Image 
-                  src={"/static/logoRed.svg"} 
+                  src={"/static/logoW.svg"} 
                   alt={"Villa Tramonto Logo"} 
                   width={128} 
                   height={34} 
